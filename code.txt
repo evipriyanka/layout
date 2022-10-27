@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+ <html>
+<head>
+<title>furniture</title>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+margin:0;
+background:gray;
+}
+nav{
+background:#594848;
+width:100%;
+overflow:auto;
+}
+ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+li{
+float:left;
+}
+ nav a{
+width:120px;
+display:block;
+text-decoration:none;
+text-align:center;
+background:#594848;
+font-size: 17px;
+color: white;
+padding: 20px 10px;
+font-family:Arial;
+}
+ nav a:hover{
+    background: skyblue;
+    color: black;
+ }
+</style>
+</head>
+ <body>
+<nav>
+<ul>
+<li><a href="#">SHOP</a></li>
+<li><a href="#"> COLLECTION</a></li>
+<li><a href="#">BLOG</a></li>
+<li><a href="#"> CONTACT</a></li>
+</ul>
+</nav>
+<div class ="container">
+    <div class="gallery">
+        <img src ="logo.png"
+        width="150"
+        height="75">
+            </div>
+<div class ="container">
+    <div class="gallery">
+        <img src ="fresh furniture.png">
+            </div>
+<div class ="container">
+    <div class="gallery">
+        <img src ="abt.png">
+    </div>
+    <h1>CATEGORY</h1>
+<div class ="container">
+    <div class="gallery">
+        <img src ="img.png">
+    </div>
+    
+</body>
+</html>
